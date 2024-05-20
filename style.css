@@ -1,0 +1,38 @@
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div {
+    margin: 20px auto;
+    width: 50%;
+}
+img {
+    width: 188px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.msg {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    border: 2px solid #006aff;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    transition: background-color,color, border-color .5s;
+    font-size: 18px;
+    visibility: hidden;
+    background-color: #006aff;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: cyan;
+    border-color: cyan;
+    color: #fff;
+}
